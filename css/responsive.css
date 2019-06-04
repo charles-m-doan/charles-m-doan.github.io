@@ -1,0 +1,71 @@
+@media screen and (min-width: 480px) {
+	#primary {
+		width: 50%;
+		float: left;
+		margin: 0 0 0 5%;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+	#gallery li {
+		float: left;
+		width: 28.3333%;
+		margin: 2.5%;
+	}
+
+	#gallery li:nth-child(3n + 1) {
+		clear: left;
+	}
+
+	#profilePic {
+		float: left;
+		margin: 0 5% 10% 0;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 850px) {
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		margin-top: 40px;
+		text-align: right;
+		width: 45%;
+	}
+	
+	nav a {
+		background: #599a68;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 0.825em;
+		margin: 20px 0 15px 80px;
+	}
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+
+	#wrapper {
+		max-width: 80%;
+		padding: 1% 5%;
+	}
+}

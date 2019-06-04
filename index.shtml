@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Charles Doan, Portfolio</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			#nav_01 {
+				color: #32673f;
+			}
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<!--#include virtual="includes/headerContents.html" -->
+		</header>
+
+		<div id="wrapper">
+			<section>
+				<ul id="gallery">
+					<li>
+						<a href="images/numbers-01.jpg"> <img src="images/numbers-01.jpg" alt="">
+						<p>
+							Experimentation with color and texture.
+						</p> </a>
+					</li>
+					<li>
+						<a href="images/numbers-02.jpg"> <img src="images/numbers-02.jpg" alt="">
+						<p>
+							Playing with blending modes in Photoshop.
+						</p> </a>
+					</li>
+					<li>
+						<a href="images/numbers-06.jpg"> <img src="images/numbers-06.jpg" alt="">
+						<p>
+							Trying to create an 80's style of glows.
+						</p> </a>
+					</li>
+					<li>
+						<a href="images/numbers-09.jpg"> <img src="images/numbers-09.jpg" alt="">
+						<p>
+							Drips created using Photoshop brushes.
+						</p> </a>
+					</li>
+					<li>
+						<a href="images/numbers-12.jpg"> <img src="images/numbers-12.jpg" alt="">
+						<p>
+							Experimenting with shapes using repetition.
+						</p> </a>
+					</li>
+				</ul>
+			</section>
+
+			<footer>
+				<!--#include virtual="includes/footerContents.html" -->
+			</footer>
+		</div>
+	</body>
+</html>
