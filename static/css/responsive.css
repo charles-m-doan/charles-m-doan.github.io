@@ -1,13 +1,14 @@
-@media screen and (min-width: 480px) {
-  .main-wrapper {
-    width: 50%;
-    padding: 0;
+@media (min-width: 320px) {
+  :root {
   }
 }
 
-@media screen and (min-width: 850px) {
-  .main-wrapper {
-    max-width: 80%;
-    padding: 1% 5%;
+@media (min-width: 768px) {
+  :root {
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
   }
 }
