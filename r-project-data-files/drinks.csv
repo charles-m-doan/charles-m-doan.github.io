@@ -1,0 +1,194 @@
+"","country","beer_servings","spirit_servings","wine_servings"
+"1","Afghanistan",0,0,0
+"2","Albania",89,132,54
+"3","Algeria",25,0,14
+"4","Andorra",245,138,312
+"5","Angola",217,57,45
+"6","Antigua & Barbuda",102,128,45
+"7","Argentina",193,25,221
+"8","Armenia",21,179,11
+"9","Australia",261,72,212
+"10","Austria",279,75,191
+"11","Azerbaijan",21,46,5
+"12","Bahamas",122,176,51
+"13","Bahrain",42,63,7
+"14","Bangladesh",0,0,0
+"15","Barbados",143,173,36
+"16","Belarus",142,373,42
+"17","Belgium",295,84,212
+"18","Belize",263,114,8
+"19","Benin",34,4,13
+"20","Bhutan",23,0,0
+"21","Bolivia",167,41,8
+"22","Bosnia-Herzegovina",76,173,8
+"23","Botswana",173,35,35
+"24","Brazil",245,145,16
+"25","Brunei",31,2,1
+"26","Bulgaria",231,252,94
+"27","Burkina Faso",25,7,7
+"28","Burundi",88,0,0
+"29","Cote d'Ivoire",37,1,7
+"30","Cabo Verde",144,56,16
+"31","Cambodia",57,65,1
+"32","Cameroon",147,1,4
+"33","Canada",240,122,100
+"34","Central African Republic",17,2,1
+"35","Chad",15,1,1
+"36","Chile",130,124,172
+"37","China",79,192,8
+"38","Colombia",159,76,3
+"39","Comoros",1,3,1
+"40","Congo",76,1,9
+"41","Cook Islands",0,254,74
+"42","Costa Rica",149,87,11
+"43","Croatia",230,87,254
+"44","Cuba",93,137,5
+"45","Cyprus",192,154,113
+"46","Czech Republic",361,170,134
+"47","North Korea",0,0,0
+"48","DR Congo",32,3,1
+"49","Denmark",224,81,278
+"50","Djibouti",15,44,3
+"51","Dominica",52,286,26
+"52","Dominican Republic",193,147,9
+"53","Ecuador",162,74,3
+"54","Egypt",6,4,1
+"55","El Salvador",52,69,2
+"56","Equatorial Guinea",92,0,233
+"57","Eritrea",18,0,0
+"58","Estonia",224,194,59
+"59","Ethiopia",20,3,0
+"60","Fiji",77,35,1
+"61","Finland",263,133,97
+"62","France",127,151,370
+"63","Gabon",347,98,59
+"64","Gambia",8,0,1
+"65","Georgia",52,100,149
+"66","Germany",346,117,175
+"67","Ghana",31,3,10
+"68","Greece",133,112,218
+"69","Grenada",199,438,28
+"70","Guatemala",53,69,2
+"71","Guinea",9,0,2
+"72","Guinea-Bissau",28,31,21
+"73","Guyana",93,302,1
+"74","Haiti",1,326,1
+"75","Honduras",69,98,2
+"76","Hungary",234,215,185
+"77","Iceland",233,61,78
+"78","India",9,114,0
+"79","Indonesia",5,1,0
+"80","Iran",0,0,0
+"81","Iraq",9,3,0
+"82","Ireland",313,118,165
+"83","Israel",63,69,9
+"84","Italy",85,42,237
+"85","Jamaica",82,97,9
+"86","Japan",77,202,16
+"87","Jordan",6,21,1
+"88","Kazakhstan",124,246,12
+"89","Kenya",58,22,2
+"90","Kiribati",21,34,1
+"91","Kuwait",0,0,0
+"92","Kyrgyzstan",31,97,6
+"93","Laos",62,0,123
+"94","Latvia",281,216,62
+"95","Lebanon",20,55,31
+"96","Lesotho",82,29,0
+"97","Liberia",19,152,2
+"98","Libya",0,0,0
+"99","Lithuania",343,244,56
+"100","Luxembourg",236,133,271
+"101","Madagascar",26,15,4
+"102","Malawi",8,11,1
+"103","Malaysia",13,4,0
+"104","Maldives",0,0,0
+"105","Mali",5,1,1
+"106","Malta",149,100,120
+"107","Marshall Islands",0,0,0
+"108","Mauritania",0,0,0
+"109","Mauritius",98,31,18
+"110","Mexico",238,68,5
+"111","Micronesia",62,50,18
+"112","Monaco",0,0,0
+"113","Mongolia",77,189,8
+"114","Montenegro",31,114,128
+"115","Morocco",12,6,10
+"116","Mozambique",47,18,5
+"117","Myanmar",5,1,0
+"118","Namibia",376,3,1
+"119","Nauru",49,0,8
+"120","Nepal",5,6,0
+"121","Netherlands",251,88,190
+"122","New Zealand",203,79,175
+"123","Nicaragua",78,118,1
+"124","Niger",3,2,1
+"125","Nigeria",42,5,2
+"126","Niue",188,200,7
+"127","Norway",169,71,129
+"128","Oman",22,16,1
+"129","Pakistan",0,0,0
+"130","Palau",306,63,23
+"131","Panama",285,104,18
+"132","Papua New Guinea",44,39,1
+"133","Paraguay",213,117,74
+"134","Peru",163,160,21
+"135","Philippines",71,186,1
+"136","Poland",343,215,56
+"137","Portugal",194,67,339
+"138","Qatar",1,42,7
+"139","South Korea",140,16,9
+"140","Moldova",109,226,18
+"141","Romania",297,122,167
+"142","Russian Federation",247,326,73
+"143","Rwanda",43,2,0
+"144","St. Kitts & Nevis",194,205,32
+"145","St. Lucia",171,315,71
+"146","St. Vincent & the Grenadines",120,221,11
+"147","Samoa",105,18,24
+"148","San Marino",0,0,0
+"149","Sao Tome & Principe",56,38,140
+"150","Saudi Arabia",0,5,0
+"151","Senegal",9,1,7
+"152","Serbia",283,131,127
+"153","Seychelles",157,25,51
+"154","Sierra Leone",25,3,2
+"155","Singapore",60,12,11
+"156","Slovakia",196,293,116
+"157","Slovenia",270,51,276
+"158","Solomon Islands",56,11,1
+"159","Somalia",0,0,0
+"160","South Africa",225,76,81
+"161","Spain",284,157,112
+"162","Sri Lanka",16,104,0
+"163","Sudan",8,13,0
+"164","Suriname",128,178,7
+"165","Swaziland",90,2,2
+"166","Sweden",152,60,186
+"167","Switzerland",185,100,280
+"168","Syria",5,35,16
+"169","Tajikistan",2,15,0
+"170","Thailand",99,258,1
+"171","Macedonia",106,27,86
+"172","Timor-Leste",1,1,4
+"173","Togo",36,2,19
+"174","Tonga",36,21,5
+"175","Trinidad & Tobago",197,156,7
+"176","Tunisia",51,3,20
+"177","Turkey",51,22,7
+"178","Turkmenistan",19,71,32
+"179","Tuvalu",6,41,9
+"180","Uganda",45,9,0
+"181","Ukraine",206,237,45
+"182","United Arab Emirates",16,135,5
+"183","United Kingdom",219,126,195
+"184","Tanzania",36,6,1
+"185","USA",249,158,84
+"186","Uruguay",115,35,220
+"187","Uzbekistan",25,101,8
+"188","Vanuatu",21,18,11
+"189","Venezuela",333,100,3
+"190","Vietnam",111,2,1
+"191","Yemen",6,0,0
+"192","Zambia",32,19,4
+"193","Zimbabwe",64,18,4
