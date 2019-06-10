@@ -17,7 +17,7 @@ img {
 	--color-secondary: #468189;
 	--color-accent-1: #9dbebb;
 	--color-accent-2: #77aca2;
-	--color-compliment: #f6edd6;
+	--color-compliment: #faf5e8;
 	--color-dominant-muted: rgb(77, 94, 102);
 	--color-accent-1-muted: rgb(119, 147, 150);
 	--color-light: #ffffff;
@@ -25,7 +25,7 @@ img {
 	--base-font-family: "Roboto", sans-serif, "Times New Roman";
 
 	/* Sizing variables */
-	--base-font-size: calc((10px + ((100vw - 320px) / 100)));
+	--base-font-size: calc((10px + ((100vw - 320px) / 120)));
 	--main-max-width: 100%;
 	--min-card-width: 14rem;
 	/* --main-max-width: calc(100% - ((((100vw - 320px) / (1600px)) * 20%))); */
@@ -77,9 +77,17 @@ p a:hover {
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	background-color: var(--color-light);
+	background-color: var(--color-compliment);
 	color: var(--color-dominant);
 	padding: 0 0.8rem;
+}
+
+.main section {
+	margin: 2rem 0;
+	background-color: var(--color-light);
+	border: 0.1rem solid var(--color-accent-1);
+	border-radius: 1rem;
+	box-shadow: 0px 5px 10px grey;
 }
 
 .footer {
@@ -104,6 +112,7 @@ p a:hover {
 
 #intro figure img {
 	border-radius: 50%;
+	border: 0.2rem solid var(--color-accent-1);
 }
 
 /* Header Contents */
@@ -150,6 +159,10 @@ p a:hover {
 
 .header__nav__list li:hover {
 	border-color: var(--color-dominant-muted);
+}
+
+.header figure {
+	width: 100%;
 }
 
 /*----------------------- CARD GALLERY -------------------------*/
@@ -223,8 +236,6 @@ p a:hover {
 
 .main__section {
 	padding: 0.5rem;
-	margin: 1rem 0px;
-	border: 0.1rem solid var(--color-accent-1);
 }
 
 .main__section h1,
@@ -273,7 +284,7 @@ p a:hover {
 .skills-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .skills-list li {
