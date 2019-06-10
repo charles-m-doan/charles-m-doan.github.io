@@ -5,7 +5,6 @@
 		<title>Charles Doan, Portfolio</title>
 		<link rel="stylesheet" href="./static/css/reset.css" />
 		<link rel="stylesheet" href="./static/css/styles.css" />
-		<link rel="stylesheet" href="./static/css/header.css" />
 		<link rel="stylesheet" href="./static/css/responsive.css" />
 		<link
 			rel="shortcut icon"
@@ -18,10 +17,12 @@
 		<div class="wrapper">
 			<div class="header">
 				<header>
-					<h1>Charles M Doan</h1>
-					<h4>Full-stack Developer</h4>
+					<div class="header__logo">
+						<h1>Charles M Doan</h1>
+						<h4>Full-stack Developer</h4>
+					</div>
 					<nav>
-						<ul>
+						<ul class="header__nav__list">
 							<li><a href="#intro">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#contact">Contact</a></li>
@@ -32,15 +33,16 @@
 
 			<div class="main">
 				<main>
-					<section id="intro">
-						<h3>Hi, welcome to my site!</h3>
+					<section id="intro" class="main__section">
+						<h3>Hi, welcome to the site.</h3>
+						<figure><img src="static\images\headshot.png" /></figure>
 						<p>
 							I live in Columbus Ohio where I develop software and study data
 							analytics. When I'm not coding I juggle a long list of hobbies
 							like reading and playing piano. Most of these hobbies would bore
-							you. What won't bore you (I hope) are my awesome projects, so
-							check 'em out below!
+							you. What won't bore you (I hope) are my awesome projects, so...
 						</p>
+						<h3>Be sure to check out my projects!</h3>
 					</section>
 
 					<section class="project-card-container">
@@ -171,8 +173,44 @@
 						</article>
 					</section>
 
-					<section id="about">
+					<section id="about" class="main__section">
 						<h3>About Me</h3>
+
+						<h4>Technical Inventory / Skills</h4>
+						<ul class="skills-list">
+							<li>Java</li>
+							<li>Spring</li>
+							<li>Hibernate</li>
+							<li>JPA</li>
+							<li>JavaScript</li>
+							<li>MVC</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Flexbox</li>
+							<li>Grid</li>
+							<li>TDD</li>
+							<li>Agile (Scrum)</li>
+							<li>Object Oriented Programming (OOP)</li>
+							<li>AJAX</li>
+							<li>JSON</li>
+							<li>Restful APIs</li>
+							<li>Responsive Design / Mobile</li>
+							<li>Structured Query Language (SQL)</li>
+							<li>Relational Databases</li>
+							<li>Source Control / Git</li>
+							<li>Data Structures and Algorithms</li>
+							<li>R / RStudio</li>
+							<li>.Net Core</li>
+							<li>Active Directory</li>
+							<li>Adobe Photoshop</li>
+							<li>McCafe ePolicy Orchestrator</li>
+							<li>Information Security</li>
+							<li>Statistical Analysis</li>
+							<li>Customer Service</li>
+							<li>Hardware & Software Configurations</li>
+							<li>Troubleshooting</li>
+						</ul>
+
 						<h4>Professional Summary</h4>
 						<p>
 							I'm a former U.S. sailor from the
@@ -249,43 +287,8 @@
 							>
 							by Nick Bostrom.
 						</p>
-						<h3>Skills</h3>
-						<h4>Technical Inventory</h4>
-						<ul>
-							<li>Java</li>
-							<li>Spring</li>
-							<li>Hibernate</li>
-							<li>JPA</li>
-							<li>JavaScript</li>
-							<li>MVC</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Flexbox</li>
-							<li>Grid</li>
-							<li>TDD</li>
-							<li>Agile (Scrum)</li>
-							<li>Object Oriented Programming (OOP)</li>
-							<li>AJAX</li>
-							<li>JSON</li>
-							<li>Restful APIs</li>
-							<li>Responsive Design / Mobile</li>
-							<li>Structured Query Language (SQL)</li>
-							<li>Relational Databases</li>
-							<li>Source Control / Git</li>
-							<li>Data Structures and Algorithms</li>
-							<li>R / RStudio</li>
-							<li>.Net Core</li>
-							<li>Active Directory</li>
-							<li>Adobe Photoshop</li>
-							<li>McCafe ePolicy Orchestrator</li>
-							<li>Information Security</li>
-							<li>Statistical Analysis</li>
-							<li>Customer Service</li>
-							<li>Hardware & Software Configurations</li>
-							<li>Troubleshooting</li>
-						</ul>
 					</section>
-					<section id="contact">
+					<section id="contact" class="main__section">
 						<h3>Contact</h3>
 						<p>
 							I'm currently seeking work in software development while studying
@@ -295,39 +298,53 @@
 						</p>
 						<p>
 							For phone contact please use my Google Voice number (top link).
-							Otherwise feel free to send me a text or email!
+							Otherwise feel free to send me a text or email.
 						</p>
-						<ul>
-							<li><a href="tel:6142854701‬">Phone: (614) 285-4701‬</a></li>
-							<li><a href="sms:3304325448‬">Text: (330) 432-5448‬</a></li>
-							<li>
-								<a href="mailto:cmatthewdoan@gmail.com">
-									Email: cmatthewdoan@gmail.com
-								</a>
-							</li>
-						</ul>
+
+						<div class="contact-list">
+							<ul>
+								<li id="contact-list__phone">
+									<a href="tel:6142854701‬">
+										<figure></figure>
+										<h5>(614) 285-4701‬</h5>
+									</a>
+								</li>
+								<li id="contact-list__text">
+									<a href="sms:3304325448‬">
+										<figure></figure>
+										<h5>(330) 432-5448‬</h5></a
+									>
+								</li>
+								<li id="contact-list__email">
+									<a href="mailto:cmatthewdoan@gmail.com">
+										<figure></figure>
+										<h5>cmatthewdoan@gmail.com</h5>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</section>
 				</main>
 			</div>
 
 			<div class="footer">
 				<footer>
-					<ul>
+					<ul class="footer__list">
 						<li>
 							<a
 								target="_blank"
 								href="http://www.linkedin.com/in/charles-m-doan"
-								>LinkedIn</a
-							>
+								><figure id="linkedin-link"></figure>
+							</a>
 						</li>
 						<li>
 							<a target="_blank" href="https://github.com/charles-m-doan"
-								>Github</a
-							>
+								><figure id="github-link"></figure
+							></a>
 						</li>
 						<li>
 							<a target="_blank" href="https://www.facebook.com/Doanage">
-								Facebook
+								<figure id="facebook-link"></figure>
 							</a>
 						</li>
 						<li>
@@ -335,10 +352,11 @@
 								target="_blank"
 								href="http://twitter.com/intent/tweet?screen_name=Doanage"
 							>
-								Twitter
+								<figure id="twitter-link"></figure>
 							</a>
 						</li>
 					</ul>
+
 					<p>
 						&copy; 2019 Charles Matthew Doan
 					</p>
