@@ -1,14 +1,52 @@
 @media (min-width: 320px) {
-  :root {
-  }
+	:root {
+	}
+}
+
+/*
+
+@media (min-width: 600px) {
+	:root {
+		--main-max-width: 90%;
+		--base-font: 15px/1 "Roboto", sans-serif;
+	}
+	.project-card-container {
+		grid-gap: 0.6rem;
+		padding: 0.6rem;
+	}
 }
 
 @media (min-width: 768px) {
-  :root {
-  }
+	:root {
+		--main-max-width: 88%;
+		--base-font: 17px/1 "Roboto", sans-serif;
+	}
+	.project-card-container {
+		grid-gap: 1rem;
+		padding: 1rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	:root {
+		--main-max-width: 84%;
+		--base-font: 20px/1 "Roboto", sans-serif;
+	}
+	.project-card-container {
+		grid-gap: 2rem;
+		padding: 2rem;
+	}
 }
 
 @media (min-width: 1200px) {
-  :root {
-  }
+	:root {
+		--main-max-width: 80%;
+		--base-font: 23px/1 "Roboto", sans-serif;
+	}
+	.project-card-container {
+		grid-gap: 3rem;
+		padding: 3rem;
+	}
 }
+
+*/

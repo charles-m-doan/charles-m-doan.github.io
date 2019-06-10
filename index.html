@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Charles Doan, Portfolio</title>
-		<!-- <link rel="stylesheet" href="./static/css/reset.css" /> -->
+		<link rel="stylesheet" href="./static/css/reset.css" />
 		<link rel="stylesheet" href="./static/css/styles.css" />
+		<link rel="stylesheet" href="./static/css/header.css" />
 		<link rel="stylesheet" href="./static/css/responsive.css" />
 		<link
 			rel="shortcut icon"
@@ -14,195 +15,335 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 	<body>
-		<header>
-			<h1>Charles M Doan</h1>
-			<h4>Full-stack Developer</h4>
-			<nav>
-				<ul>
-					<li><a href="#intro">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section id="intro">
-				<h3>Hi, welcome to my site!</h3>
-				<p>
-					I live in Columbus Ohio where I develop software and study data
-					analytics. When I'm not coding I juggle a long list of hobbies like
-					reading and playing piano. Most of these hobbies would bore you. What
-					won't bore you (I hope) are my awesome projects, so check 'em out
-					below!
-				</p>
-			</section>
+		<div class="wrapper">
+			<div class="header">
+				<header>
+					<h1>Charles M Doan</h1>
+					<h4>Full-stack Developer</h4>
+					<nav>
+						<ul>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
 
-			<section>
-				<h3>Projects</h3>
-			</section>
+			<div class="main">
+				<main>
+					<section id="intro">
+						<h3>Hi, welcome to my site!</h3>
+						<p>
+							I live in Columbus Ohio where I develop software and study data
+							analytics. When I'm not coding I juggle a long list of hobbies
+							like reading and playing piano. Most of these hobbies would bore
+							you. What won't bore you (I hope) are my awesome projects, so
+							check 'em out below!
+						</p>
+					</section>
 
-			<section id="about">
-				<h3>About Me</h3>
-				<h4>Professional Summary</h4>
-				<p>
-					I'm a former U.S. sailor from the
-					<a
-						target="_blank"
-						href="https://en.wikipedia.org/wiki/USS_George_H.W._Bush"
-						>CVN 77 aircraft carrier</a
-					>
-					stationed in Norfolk Virginia where I served for approximately 4 years
-					as a
-					<a
-						target="_blank"
-						href="https://en.wikipedia.org/wiki/Information_systems_technician_(United_States_Navy)"
-						>Naval IT</a
-					>. My period of service included a 9 month deployment to the Persian
-					Gulf in
-					<a
-						target="_blank"
-						href="https://en.wikipedia.org/wiki/Carrier_Strike_Group_2#2014_deployment"
-						>2014</a
-					>
-					with Carrier Strike Group 2, and my job as an IT involved a wide range
-					of technical troubleshooting and customer service. The "customers"
-					were officers, contractors, and fellow enlisted personnel on a ship of
-					roughly 7000 people. Naval IT duties are similar to those of a
-					civilian IT, but combine areas such as helpdesk tech, sys admin,
-					network tech, security analyst, and radio tech. Included are also
-					navy-specific work such as ship maintenance, watch standing, and
-					training for emergencies and damage control. (Civilian ITs don't learn
-					how to extinguish fuel fires.)
-				</p>
-				<h4>Education</h4>
-				<p>
-					Prior to the Navy I studied at Muskingum University, earning a B.S. in
-					computer science. The curriculum focused on software engineering and
-					mathematics. I loved it, and I developed a deep fascination with
-					artificial intelligence.
-				</p>
-				<p>
-					Most recently I attended several semesters at The Ohio State
-					University studying statistics, chemistry, and biology. My purpose in
-					doing so was to get a better sense for the data-analytics side of
-					computer science and investigate the field of bioinformatics. I found
-					statistics fascinating, and I'm now eager to pursue a career that
-					combines software engineering and data science.
-				</p>
-				<h4>Hobbies / Interests</h4>
-				<p>
-					I'm a nerd. When I'm not coding I read a lot of sci-fi and fantasy,
-					and I annoy my neighbors by playing the piano too loudly. I love
-					traveling, computer games, playing tennis, and running outside (most
-					days on the
-					<a
-						target="_blank"
-						href="https://www.columbus.gov/recreationandparks/trails/Olentangy-Trail/"
-						>Olentangy Trail</a
-					>). Sometimes I host board game nights for my fellow nerds and
-					sometimes I make
-					<a target="_blank" href="./static/images/Jesus_Squirrel.jpg"
-						>silly images</a
-					>
-					in photoshop. Intellectually I have insatiable curiosity. Beyond
-					fiction, my typical reading ranges from cosmology, biology, and
-					neuroscience to philosophy, politics, and history. My personal hero is
-					<a target="_blank" href="https://en.wikipedia.org/wiki/Carl_Sagan"
-						>Carl Sagan</a
-					>, and the most profound book I've read recently is
-					<a
-						target="_blank"
-						href="https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies"
-						>Superintelligence</a
-					>
-					by Nick Bostrom.
-				</p>
-				<h3>Skills</h3>
-				<h4>Technical Inventory</h4>
-				<ul>
-					<li>Java</li>
-					<li>Spring</li>
-					<li>Hibernate</li>
-					<li>JPA</li>
-					<li>JavaScript</li>
-					<li>MVC</li>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Flexbox</li>
-					<li>Grid</li>
-					<li>TDD</li>
-					<li>Agile (Scrum)</li>
-					<li>Object Oriented Programming (OOP)</li>
-					<li>AJAX</li>
-					<li>JSON</li>
-					<li>Restful APIs</li>
-					<li>Responsive Design / Mobile</li>
-					<li>Structured Query Language (SQL)</li>
-					<li>Relational Databases</li>
-					<li>Source Control / Git</li>
-					<li>Data Structures and Algorithms</li>
-					<li>R / RStudio</li>
-					<li>.Net Core</li>
-					<li>Active Directory</li>
-					<li>Adobe Photoshop</li>
-					<li>McCafe ePolicy Orchestrator</li>
-					<li>Information Security</li>
-					<li>Statistical Analysis</li>
-					<li>Customer Service</li>
-					<li>Hardware & Software Configurations</li>
-					<li>Troubleshooting</li>
-				</ul>
-			</section>
-			<section id="contact">
-				<h3>Contact</h3>
-				<p>
-					I'm currently seeking work in software development while studying data
-					science in my spare time. Ultimately my goal is to work in the field
-					of artificial intelligence, so I'm eager for any team coding
-					experience I can get!
-				</p>
-				<p>
-					For phone contact please use my Google Voice number (top link).
-					Otherwise feel free to send me a text or email!
-				</p>
-				<ul>
-					<li><a href="tel:6142854701‬">Phone: (614) 285-4701‬</a></li>
-					<li><a href="sms:3304325448‬">Text: (330) 432-5448‬</a></li>
-					<li>
-						<a href="mailto:cmatthewdoan@gmail.com">
-							Email: cmatthewdoan@gmail.com
-						</a>
-					</li>
-				</ul>
-			</section>
-		</main>
-		<footer>
-			<ul>
-				<li>
-					<a target="_blank" href="http://www.linkedin.com/in/charles-m-doan"
-						>LinkedIn</a
-					>
-				</li>
-				<li>
-					<a target="_blank" href="https://github.com/charles-m-doan">Github</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://www.facebook.com/Doanage">
-						Facebook
-					</a>
-				</li>
-				<li>
-					<a
-						target="_blank"
-						href="http://twitter.com/intent/tweet?screen_name=Doanage"
-					>
-						Twitter
-					</a>
-				</li>
-			</ul>
-			<p>
-				&copy; 2019 Charles Matthew Doan
-			</p>
-		</footer>
+					<section class="project-card-container">
+						<article class="project-card">
+							<header class="project-card__title">
+								<h3>University Hospital Clinic</h3>
+							</header>
+							<figure class="project-card__thumbnail">
+								<img
+									src="./static/images/project_UniversityHospitalClinic.jpg"
+								/>
+							</figure>
+							<h4 class="project-card__tools">
+								Tools: Java 8, Eclipse, Github, Git Bash, JUnit, TDD, Pair
+								Programming
+							</h4>
+							<main class="project-card__description">
+								A simple command-line program that simulates managing and
+								interacting with employees and patients in a hospital setting,
+								including actions like “hire”, “fire”, “pay salary”, and “draw
+								blood”.
+							</main>
+							<a
+								target="_blank"
+								href="https://github.com/charles-m-doan/university-clinic-hospital"
+								class="project-card__button"
+								>See More</a
+							>
+						</article>
+
+						<article class="project-card">
+							<header class="project-card__title">
+								<h3>Virtual Pet</h3>
+							</header>
+							<figure class="project-card__thumbnail">
+								<img src="./static/images/project_VirtualPet.jpg" />
+							</figure>
+							<h4 class="project-card__tools">
+								Tools: Java 8, Eclipse, Visual Studio, Github, Git Bash, JUnit,
+								TDD, Agile/Scrum
+							</h4>
+							<main class="project-card__description">
+								A command-line simulation for managing a “shelter” of virtual
+								pets. The virtual pets come in various types and have different
+								preferences and internal values that affect things like
+								“health”, “hunger”, and “boredom”.
+							</main>
+							<a
+								target="_blank"
+								href="https://github.com/charles-m-doan/virtual-pet"
+								class="project-card__button"
+								>See More</a
+							>
+						</article>
+
+						<article class="project-card">
+							<header class="project-card__title">
+								<h3>Airline On-Time Performance</h3>
+							</header>
+							<figure class="project-card__thumbnail">
+								<img src="./static/images/project_AirlineOnTime.jpg" />
+							</figure>
+							<h4 class="project-card__tools">
+								Tools: R Markdown, RStudio, SQlite, Google Drive, Teamwork,
+								Statistics
+							</h4>
+							<main class="project-card__description">
+								An R Markdown report analyzing international flight
+								cancellations and delays using a custom-built database with data
+								from the Bureau of Transportation Statistics. Utilized
+								statistical techniques like ANOVA and post-hoc error correction.
+							</main>
+							<a
+								target="_blank"
+								href="https://github.com/charles-m-doan/airline-on-time-performance"
+								class="project-card__button"
+								>See More</a
+							>
+						</article>
+
+						<article class="project-card">
+							<header class="project-card__title">
+								<h3>Global Alcohol Consumption</h3>
+							</header>
+							<figure class="project-card__thumbnail">
+								<img src="./static/images/project_AlcoholConsumption.jpg" />
+							</figure>
+							<h4 class="project-card__tools">
+								Tools: R Markdown, RStudio, Google Drive, Teamwork, Statistics
+							</h4>
+							<main class="project-card__description">
+								An R Markdown report analyzing alcohol servings per capita for
+								different categories of alcohol across countries using data from
+								the World Health Organization. Utilized statistical techniques
+								like maximum likelihood estimation and quantile-quantile plot
+								comparisons.
+							</main>
+							<a
+								target="_blank"
+								href="https://github.com/charles-m-doan/global-alcohol-consumption"
+								class="project-card__button"
+								>See More</a
+							>
+						</article>
+
+						<article class="project-card">
+							<header class="project-card__title">
+								<h3>Connect Four AI</h3>
+							</header>
+							<figure class="project-card__thumbnail">
+								<img src="./static/images/project_ConnectFour.jpg" />
+							</figure>
+							<h4 class="project-card__tools">
+								Tools: Java 8, Eclipse, Github, Git Bash, Swing
+							</h4>
+							<main class="project-card__description">
+								A graphical user interface and AI opponent for playing a digital
+								version of the popular board game, Connect Four. The AI was
+								programmed using a heuristic-based approach, and the user may
+								choose among multiple dificulty levels.
+							</main>
+							<a
+								target="_blank"
+								href="https://github.com/charles-m-doan/connect-four"
+								class="project-card__button"
+								>See More</a
+							>
+						</article>
+					</section>
+
+					<section id="about">
+						<h3>About Me</h3>
+						<h4>Professional Summary</h4>
+						<p>
+							I'm a former U.S. sailor from the
+							<a
+								target="_blank"
+								href="https://en.wikipedia.org/wiki/USS_George_H.W._Bush"
+								>CVN 77 aircraft carrier</a
+							>
+							stationed in Norfolk Virginia where I served for approximately 4
+							years as a
+							<a
+								target="_blank"
+								href="https://en.wikipedia.org/wiki/Information_systems_technician_(United_States_Navy)"
+								>Naval IT</a
+							>. My period of service included a 9 month deployment to the
+							Persian Gulf in
+							<a
+								target="_blank"
+								href="https://en.wikipedia.org/wiki/Carrier_Strike_Group_2#2014_deployment"
+								>2014</a
+							>
+							with Carrier Strike Group 2, and my job as an IT involved a wide
+							range of technical troubleshooting and customer service. The
+							"customers" were officers, contractors, and fellow enlisted
+							personnel on a ship of roughly 7000 people. Naval IT duties are
+							similar to those of a civilian IT, but combine areas such as
+							helpdesk tech, sys admin, network tech, security analyst, and
+							radio tech. Included are also navy-specific work such as ship
+							maintenance, watch standing, and training for emergencies and
+							damage control. (Civilian ITs don't learn how to extinguish fuel
+							fires.)
+						</p>
+						<h4>Education</h4>
+						<p>
+							Prior to the Navy I studied at Muskingum University, earning a
+							B.S. in computer science. The curriculum focused on software
+							engineering and mathematics. I loved it, and I developed a deep
+							fascination with artificial intelligence.
+						</p>
+						<p>
+							Most recently I attended several semesters at The Ohio State
+							University studying statistics, chemistry, and biology. My purpose
+							in doing so was to get a better sense for the data-analytics side
+							of computer science and investigate the field of bioinformatics. I
+							found statistics fascinating, and I'm now eager to pursue a career
+							that combines software engineering and data science.
+						</p>
+						<h4>Hobbies / Interests</h4>
+						<p>
+							I'm a nerd. When I'm not coding I read a lot of sci-fi and
+							fantasy, and I annoy my neighbors by playing the piano too loudly.
+							I love traveling, computer games, playing tennis, and running
+							outside (most days on the
+							<a
+								target="_blank"
+								href="https://www.columbus.gov/recreationandparks/trails/Olentangy-Trail/"
+								>Olentangy Trail</a
+							>). Sometimes I host board game nights for my fellow nerds and
+							sometimes I make
+							<a target="_blank" href="./static/images/Jesus_Squirrel.jpg"
+								>silly images</a
+							>
+							in photoshop. Intellectually I have insatiable curiosity. Beyond
+							fiction, my typical reading ranges from cosmology, biology, and
+							neuroscience to philosophy, politics, and history. My personal
+							hero is
+							<a target="_blank" href="https://en.wikipedia.org/wiki/Carl_Sagan"
+								>Carl Sagan</a
+							>, and the most profound book I've read recently is
+							<a
+								target="_blank"
+								href="https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies"
+								>Superintelligence</a
+							>
+							by Nick Bostrom.
+						</p>
+						<h3>Skills</h3>
+						<h4>Technical Inventory</h4>
+						<ul>
+							<li>Java</li>
+							<li>Spring</li>
+							<li>Hibernate</li>
+							<li>JPA</li>
+							<li>JavaScript</li>
+							<li>MVC</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Flexbox</li>
+							<li>Grid</li>
+							<li>TDD</li>
+							<li>Agile (Scrum)</li>
+							<li>Object Oriented Programming (OOP)</li>
+							<li>AJAX</li>
+							<li>JSON</li>
+							<li>Restful APIs</li>
+							<li>Responsive Design / Mobile</li>
+							<li>Structured Query Language (SQL)</li>
+							<li>Relational Databases</li>
+							<li>Source Control / Git</li>
+							<li>Data Structures and Algorithms</li>
+							<li>R / RStudio</li>
+							<li>.Net Core</li>
+							<li>Active Directory</li>
+							<li>Adobe Photoshop</li>
+							<li>McCafe ePolicy Orchestrator</li>
+							<li>Information Security</li>
+							<li>Statistical Analysis</li>
+							<li>Customer Service</li>
+							<li>Hardware & Software Configurations</li>
+							<li>Troubleshooting</li>
+						</ul>
+					</section>
+					<section id="contact">
+						<h3>Contact</h3>
+						<p>
+							I'm currently seeking work in software development while studying
+							data science in my spare time. Ultimately my goal is to work in
+							the field of artificial intelligence, so I'm eager for any team
+							coding experience I can get!
+						</p>
+						<p>
+							For phone contact please use my Google Voice number (top link).
+							Otherwise feel free to send me a text or email!
+						</p>
+						<ul>
+							<li><a href="tel:6142854701‬">Phone: (614) 285-4701‬</a></li>
+							<li><a href="sms:3304325448‬">Text: (330) 432-5448‬</a></li>
+							<li>
+								<a href="mailto:cmatthewdoan@gmail.com">
+									Email: cmatthewdoan@gmail.com
+								</a>
+							</li>
+						</ul>
+					</section>
+				</main>
+			</div>
+
+			<div class="footer">
+				<footer>
+					<ul>
+						<li>
+							<a
+								target="_blank"
+								href="http://www.linkedin.com/in/charles-m-doan"
+								>LinkedIn</a
+							>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/charles-m-doan"
+								>Github</a
+							>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/Doanage">
+								Facebook
+							</a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								href="http://twitter.com/intent/tweet?screen_name=Doanage"
+							>
+								Twitter
+							</a>
+						</li>
+					</ul>
+					<p>
+						&copy; 2019 Charles Matthew Doan
+					</p>
+				</footer>
+			</div>
+		</div>
 	</body>
 </html>
