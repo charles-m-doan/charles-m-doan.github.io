@@ -1,0 +1,16 @@
+#about h3,
+#about h4 {
+	color: var(--primary);
+}
+
+.skills-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	color: var(--primary);
+}
+
+.skills-list li {
+	padding: 0.75rem 0.5rem;
+	font-weight: bold;
+}

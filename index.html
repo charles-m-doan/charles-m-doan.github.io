@@ -3,9 +3,19 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Charles Doan, Portfolio</title>
-		<link rel="stylesheet" href="./static/css/reset.css" />
-		<link rel="stylesheet" href="./static/css/styles.css" />
-		<link rel="stylesheet" href="./static/css/responsive.css" />
+		<link rel="stylesheet" href="./static/css/base/reset.css" />
+		<link rel="stylesheet" href="./static/css/base/base.css" />
+		<link rel="stylesheet" href="./static/css/base/testing.css" />
+		<link rel="stylesheet" href="./static/css/specific/header.css" />
+		<link rel="stylesheet" href="./static/css/specific/main.css" />
+		<link rel="stylesheet" href="./static/css/specific/projects.css" />
+		<link rel="stylesheet" href="./static/css/specific/about.css" />
+		<link rel="stylesheet" href="./static/css/specific/contact.css" />
+		<link rel="stylesheet" href="./static/css/specific/footer.css" />
+		<link rel="stylesheet" href="./static/css/specific/tabs.css" />
+		<link rel="stylesheet" href="./static/css/specific/intro.css" />
+		<link rel="stylesheet" href="./static/css/base/responsive.css" />
+
 		<link
 			rel="shortcut icon"
 			href="./static/images/squirrel.png"
@@ -15,30 +25,26 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<div class="header">
-				<header>
-					<div class="header__logo">
-						<h1>Charles Matthew Doan</h1>
-						<h4>Full-stack Developer</h4>
-					</div>
-					<nav>
-						<ul class="header__nav__list">
-							<li><a href="#intro">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-				</header>
-				<figure>
-					<img src="static/images/experiment.jpg" alt="missing" />
-				</figure>
-			</div>
-
-			<div class="main">
-				<main>
-					<section id="intro" class="main__section">
-						<h3>Hi, I build things with code.</h3>
-						<figure>
+			<header class="header">
+				<div class="header__logo">
+					<h1 class="header__logo__title">Charles Doan</h1>
+					<h3 class="header__logo__sub-title">⬥ Full-stack Developer</h3>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__nav__list">
+						<li id="home-button" class="header__tablink">Home</li>
+						<li id="projects-button" class="header__tablink">Projects</li>
+						<li id="about-button" class="header__tablink">About</li>
+						<li id="contact-button" class="header__tablink">Contact</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="hero-image"></div>
+			<main class="main">
+				<div id="home-page" class="tabcontent">
+					<section class="intro">
+						<h3 class="intro__greeting">Hi, I build things with code.</h3>
+						<figure class="intro__headshot">
 							<img src="static\images\headshot.png" />
 						</figure>
 						<p>
@@ -49,7 +55,9 @@
 						</p>
 						<h3>Be sure to check out my projects!</h3>
 					</section>
+				</div>
 
+				<div id="projects-page" class="tabcontent">
 					<section class="project-card-container">
 						<article class="project-card">
 							<header class="project-card__title">
@@ -177,7 +185,9 @@
 							>
 						</article>
 					</section>
+				</div>
 
+				<div id="about-page" class="tabcontent">
 					<section id="about" class="main__section">
 						<h3>About Me</h3>
 
@@ -293,6 +303,9 @@
 							by Nick Bostrom.
 						</p>
 					</section>
+				</div>
+
+				<div id="contact-page" class="tabcontent">
 					<section id="contact" class="main__section">
 						<h3>Contact</h3>
 						<p>
@@ -329,44 +342,40 @@
 							</ul>
 						</div>
 					</section>
-				</main>
-			</div>
-
-			<div class="footer">
-				<footer>
-					<ul class="footer__list">
-						<li>
-							<a
-								target="_blank"
-								href="http://www.linkedin.com/in/charles-m-doan"
-								><figure id="linkedin-link"></figure>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href="https://github.com/charles-m-doan"
-								><figure id="github-link"></figure
-							></a>
-						</li>
-						<li>
-							<a target="_blank" href="https://www.facebook.com/Doanage">
-								<figure id="facebook-link"></figure>
-							</a>
-						</li>
-						<li>
-							<a
-								target="_blank"
-								href="http://twitter.com/intent/tweet?screen_name=Doanage"
-							>
-								<figure id="twitter-link"></figure>
-							</a>
-						</li>
-					</ul>
-
-					<p>
-						&copy; 2019 Charles Matthew Doan
-					</p>
-				</footer>
-			</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<ul class="footer__list">
+					<li>
+						<a target="_blank" href="http://www.linkedin.com/in/charles-m-doan"
+							><figure id="linkedin-link"></figure>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://github.com/charles-m-doan"
+							><figure id="github-link"></figure
+						></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.facebook.com/Doanage">
+							<figure id="facebook-link"></figure>
+						</a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							href="http://twitter.com/intent/tweet?screen_name=Doanage"
+						>
+							<figure id="twitter-link"></figure>
+						</a>
+					</li>
+				</ul>
+				<p>&copy; 2019 Charles Matthew <a href="./palette.html">Doan</a></p>
+			</footer>
 		</div>
+		<!-- LOAD JAVASCRIPT -->
+		<script src="js/Scaling.js"></script>
+		<script src="js/Tabbing.js"></script>
+		<script src="js/WebsiteColorMapping.js"></script>
 	</body>
 </html>
