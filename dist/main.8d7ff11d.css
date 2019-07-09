@@ -1,0 +1,19 @@
+.main {
+	background-color: var(--compliment);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.tabcontent {
+	width: 100%;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+
+/*# sourceMappingURL=/main.8d7ff11d.css.map */

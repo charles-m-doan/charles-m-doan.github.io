@@ -1,0 +1,37 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+#about h3 {
+  color: var(--primary);
+  border-top: none !important;
+}
+
+#about h4 {
+  color: var(--primary);
+  margin-top: 2rem;
+}
+
+#about p {
+  max-width: 50em;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: var(--primary);
+  max-width: 60em;
+}
+
+.skills-list li {
+  padding: 0.75rem 0.5rem;
+  font-weight: bold;
+}
+
+
+/*# sourceMappingURL=/about.96460535.css.map */

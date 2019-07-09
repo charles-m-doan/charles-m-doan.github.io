@@ -1,0 +1,67 @@
+#contact h3 {
+  color: var(--primary);
+}
+
+#contact p {
+  max-width: 50em;
+}
+
+.contact-list {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-list li {
+  padding: 0.75rem;
+}
+
+.contact-list a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-list h5 {
+  color: var(--secondary);
+}
+
+.contact-list figure {
+  width: 4rem;
+  height: 4rem;
+}
+
+#contact-list__phone figure {
+  background-image: url("/google_voice_icon.58edadc6.png");
+  background-size: 100% 100%;
+}
+
+#contact-list__phone figure:hover {
+  background-image: url("/google_voice_icon_colored.1d3f10ca.png");
+  background-size: 100% 100%;
+}
+
+#contact-list__text figure {
+  background-image: url("/sms_text_icon.f202a99b.png");
+  background-size: 100% 100%;
+}
+
+#contact-list__text figure:hover {
+  background-image: url("/sms_text_icon_colored.2680dfa5.png");
+  background-size: 100% 100%;
+}
+
+#contact-list__email figure {
+  background-image: url("/email_icon.e9523e95.png");
+  background-size: 100% 100%;
+}
+
+#contact-list__email figure:hover {
+  background-image: url("/email_icon_colored.5b57164b.png");
+  background-size: 100% 100%;
+}
+
+
+/*# sourceMappingURL=/contact.257583a3.css.map */

@@ -1,0 +1,36 @@
+@media (min-width: 400px) {
+	:root {
+		--main-width: 90%;
+	}
+}
+
+@media (min-width: 600px) {
+	.hero-image {
+		display: inline-block;
+		height: 30vh;
+	}
+}
+
+@media (min-width: 805px) {
+	.header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: unset;
+	}
+	.hero-image {
+		height: 35vh;
+	}
+}
+
+@media (min-width: 1125px) {
+	.header__logo__sub-title {
+		display: inline-block;
+	}
+	.hero-image {
+		height: 40vh;
+	}
+}
+
+
+/*# sourceMappingURL=/responsive.18532cb4.css.map */

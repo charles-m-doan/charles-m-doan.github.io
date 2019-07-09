@@ -1,0 +1,73 @@
+.footer {
+	color: var(--secondary-1);
+	background-color: var(--secondary---3);
+	min-height: 5vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	box-shadow: 0 -0.1rem 0.3rem 0.1rem var(--neutral-5);
+	z-index: 1;
+	padding: 2rem 1rem 0.5rem 1rem;
+}
+
+.footer p {
+	margin-top: 1.5rem;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.footer__list {
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__list li {
+	margin: 0 2rem;
+}
+
+.footer__list figure {
+	width: 3rem;
+	height: 3rem;
+	background-size: 100% 100%;
+}
+
+#linkedin-link {
+	background-image: url("/linkedin_icon.1c9f7cdd.png");
+}
+
+#linkedin-link:hover {
+	background-image: url("/linkedin_icon_colored.2334ebff.png");
+}
+
+#github-link {
+	background-image: url("/github_icon.5394c11c.png");
+}
+
+#github-link:hover {
+	background-image: url("/github_icon_colored.623e3e47.png");
+}
+
+#facebook-link {
+	background-image: url("/facebook_icon.e5f864fc.png");
+}
+
+#facebook-link:hover {
+	background-image: url("/facebook_icon_colored.71480b46.png");
+}
+
+#twitter-link {
+	background-image: url("/twitter_icon.27a47cbd.png");
+}
+
+#twitter-link:hover {
+	background-image: url("/twitter_icon_colored.7d905949.png");
+}
+
+
+/*# sourceMappingURL=/footer.860e6b6b.css.map */

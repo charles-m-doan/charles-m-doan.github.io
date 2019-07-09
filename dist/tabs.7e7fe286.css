@@ -1,0 +1,41 @@
+.tabcontent {
+  display: none;
+  width: 100%;
+  flex-grow: 1;
+  padding: 0 1rem;
+}
+
+.tabcontent p {
+  line-height: 1.62;
+  color: var(--secondary---3);
+}
+
+.tabcontent h3,
+.tabcontent h4 {
+  text-align: center;
+  font-weight: bold;
+  border-top: 0.1rem solid var(--secondary-2);
+  border-bottom: 0.1rem solid var(--secondary-2);
+}
+
+.tabcontent h1,
+.tabcontent h2,
+.tabcontent h3,
+.tabcontent h4,
+.tabcontent h5,
+.tabcontent p {
+  padding: 0.75rem;
+}
+
+.main__section {
+  padding: 1rem;
+  margin: 0.4rem;
+  background-color: var(--primary-max);
+  color: var(--primary);
+  border: 0.1rem solid var(--secondary-3);
+  border-radius: 1rem;
+  box-shadow: 0px 5px 10px var(--neutral-5);
+}
+
+
+/*# sourceMappingURL=/tabs.7e7fe286.css.map */
